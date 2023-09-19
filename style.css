@@ -1,0 +1,54 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and font styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Style the header with a dark background and white text */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Center the container and set a maximum width */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the main headings */
+h1, h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Add some spacing to paragraphs */
+p {
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style links with a different color and remove underlines */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Make images responsive within their containers */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 600px;
+}
